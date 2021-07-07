@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Validating login with Valid username and Valid Password",
+        "description": "",
+        "id": "validating-login-functionality-of-facebook-application;validating-login-with-valid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8376714700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on facebook page #Browser url--\u003e predefined",
+            "match": {
+              "location": "Stepdef.user_is_on_facebook_page_Browser_url_predefined()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 298408700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user need to enter username and password",
+            "match": {
+              "location": "Stepdef.user_need_to_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121479700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User need to CLick Login button",
+            "match": {
+              "location": "Stepdef.user_need_to_CLick_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 403000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User need to validate Error message",
+            "match": {
+              "location": "Stepdef.user_need_to_validate_Error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validating login Functionality of facebook application",
+    "description": "",
+    "id": "validating-login-functionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/facebookk.feature",
+    "tags": []
+  }
+]
